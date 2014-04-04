@@ -20,12 +20,14 @@ coding
 7. program coding 반드시 판서를 시켜보세요. (자바든 C든 C++이든)
    만약 C coding을 할 줄 아는 사람이면,
   char* strcat(char *dst, char *src) 이 함수를 써 놓고, 기능을 코딩하라고 (날 코드로) 하세요.
+  [strcat 스펙](http://forum.falinux.com/zbxe/?mid=C_LIB&page=2&document_srl=413118)
 				  
 		char* strcat(char *dst, char *src)
 		{
     		while (*dst) dst++ ;
     		while (*dst++ = *src++) ;
 		}
+		
   > 제가 지금까지 strcat, strcpy, 그리고, linked list를 이용해서 stack을 구현해봐라..
    이런것을 날코딩 시켜봤는데요, 이거 제대로 작성하는 사람 50%도 안됩니다.
    꼭 코딩을 시켜보세요.
